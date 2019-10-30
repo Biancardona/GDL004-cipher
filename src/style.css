@@ -1,79 +1,48 @@
-body{ background-color:#333; 
-    font-family:"Courier New", Courier, monospace;}
-  .inputDiv {
-    width: 300px;
-    display:block;
-    margin: 50px auto;
-    color:#aaa;
-    position:relative;
+html {
+    background-color: rgb(132, 185, 202);
   }
-  .output{display:inline-block; width:40px; text-align:center;}
-  
-  input[type='range'] {
-    display: inline-block;
-    width: 250px;
+  h2 {
+    font-family: 'Annie Use Your Telescope';font-size: 64px;font-weight: thicker;letter-spacing: 8px;color:whitesmoke;word-spacing: 5px;
   }
-  
-  input[type='range']:focus {
-    outline: none;
+  body {
+    font-family: 'Annie Use Your Telescope';font-size: 32px;color:whitesmoke;word-spacing: 5px;
+    word-spacing: 3px;
+    background-image: url("Unicornio1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
   }
-  
-  input[type='range'],
-  input[type='range']::-webkit-slider-runnable-track,
-  input[type='range']::-webkit-slider-thumb {
-    -webkit-appearance: none;
+  input {
+  background-color: whitesmoke;
+  border: none;
+  color: DarkSlateBlue;
+  padding: 10px;
+  height: 25px;
+  width: 35px;
+  text-align: justify;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
   }
-  
-  input[type=range]::-webkit-slider-thumb {
-    background-color: #777;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #333;
-    border-radius: 50%;
-    margin-top: -9px;
-  }
-  
-  input[type=range]::-moz-range-thumb {
-    background-color: #777;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #333;
-    border-radius: 50%;
-  }
-  
-  input[type=range]::-ms-thumb {
-    background-color: #777;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #333;
-    border-radius: 50%;
-  }
-  
-  input[type=range]::-webkit-slider-runnable-track {
-    background-color: #777;
-    height: 3px;
-  }
-  
-  input[type=range]:focus::-webkit-slider-runnable-track {
-    outline: none;
-  }
-  
-  input[type=range]::-moz-range-track {
-    background-color: #777;
-    height: 3px;
-  }
-  
-  input[type=range]::-ms-track {
-    background-color: #777;
-    height: 3px;
-  }
-  
-  input[type=range]::-ms-fill-lower {
-    background-color: HotPink
-  }
-  
-  input[type=range]::-ms-fill-upper {
-    background-color: black;
-  } 
-  
-  Resources
+  button {
+ background-color: whitesmoke;
+  border: none;
+  color: DarkSlateBlue;
+  padding: 40px 40px
+  height: 60px;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 25px;
+  font-weight: thicker;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
