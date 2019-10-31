@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
-  </head>
-  <body>
-    <div id="root">
-      <header> 
-          <style>
-              table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-              }
-              th, td {
-                padding: 5px;
-              }
-              </style>
-        <h2>ARCANE DIARY</h2>
-        <h3>Where your secrets remain safe</h3>
-      </header>
-    </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+</head>
+
+<body class="body">
+  <div id="root">
+    <header>
+  </div>
+  <div class="a">
+    <h1>ARCANE DIARY</h1>
+  </div>
+  <figure> 
+  <img src="Unicornio1.png">
+  </figure>
+  <main> 
+  <div class="b">
+    <p>Where your secrets remain safe</p>
+    </header>
     <section> </section>
-    <table style="width:40%">
+    <table id="table">
       <th>A</th>
       <th>B</th>
       <th>C</th>
@@ -31,31 +31,32 @@
       <th>E</th>
       <th>F</th>
       <th>G</th>
-      </table>
-    </tr> 
-    <table style="width:40%">
-    <tr>
-          <td></td>
-          <td></td>
-          <td></th>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </td>
-    </tr>
+      </tr>
+      <tr>
+        <td>""</td>
+        <td></td>
+        <td>
+          </th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
     </table>
-  </section>
-  <p>Write a number to encrypt your thoughts</p>
+    </section>
+    <p>Write a number to encrypt your thoughts</p>
+  </div>
   <br>
-  <input type="text" name="offset"
-  <br>
-  <br>
+  <div>
+    <input class="input" type="text" name="offset" <br>
+    <br>
 
-  <button type="submit" value="submit">Dear Diary START</button>
+    <button class="button" type="submit" value="submit">Dear Diary <br> START</button>
+  </div>
 
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+</main>
+</body>
 </html>

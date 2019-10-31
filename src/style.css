@@ -1,24 +1,48 @@
 html {
-    background-color: rgb(132, 185, 202);
-  }
-  h2 {
-    font-family: 'Annie Use Your Telescope';font-size: 64px;font-weight: thicker;letter-spacing: 8px;color:whitesmoke;word-spacing: 5px;
-  }
-  body {
-    font-family: 'Annie Use Your Telescope';font-size: 32px;color:whitesmoke;word-spacing: 5px;
-    word-spacing: 3px;
-    background-image: url("Unicornio1.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    margin-right: 100px;
-  }
-  input {
+  background-color: rgb(132, 185, 202);
+}
+
+h2, div.a {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 8px;
+  color: whitesmoke;
+  word-spacing: 5px;
+  margin: 30px 0;
+}
+
+figure {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center; 
+  margin: 30px 0;
+  position: absolute;
+  left:235px;
+  top:230px;
+
+}
+div.b {
+  text-align: center;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 32px;
+  color: whitesmoke;
+  word-spacing: 5px;
+  word-spacing: 3px;
+  margin: 40px 0; 
+  position: absolute;
+  left:260px;
+  top:750px;
+
+}
+
+.input {
   background-color: whitesmoke;
   border: none;
   color: DarkSlateBlue;
   padding: 10px;
   height: 25px;
-  width: 35px;
+  width: 80px;
   text-align: justify;
   border-radius: 10px;
   text-decoration: none;
@@ -28,21 +52,41 @@ html {
   font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
-  }
-  button {
- background-color: whitesmoke;
+  position: absolute;
+  left:440px;
+  top:1140px;
+}
+
+.button {
+  background-color: rgb(233, 221, 229);
   border: none;
-  color: DarkSlateBlue;
-  padding: 40px 40px
-  height: 60px;
-  width: 25%;
+  color: rgb(60, 50, 119);
+  padding: 10px;
+  width: 30%;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 20px;
   text-decoration: none;
   display: inline-block;
   font-family: 'Annie Use Your Telescope';
-  font-size: 25px;
+  font-size: 35px;
   font-weight: thicker;
   margin: 4px 2px;
-  cursor: pointer;  
+  cursor: pointer;
+  position: absolute;
+  left:340px;
+  top:1250px
+}
+
+#table td, #table th {
+  border-collapse: collapse;
+  color: darkslateblue;
+  height: 20%;
+  border: 3px;
+  padding: 14px;
+  border-style: solid;
+  border-color: whitesmoke;
+  font-size: 23px;
+  text-align: center;
+  position: relative;
+  left:75px;
 }
