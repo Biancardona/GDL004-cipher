@@ -1,5 +1,5 @@
 window.cipher = {
-  let encode = function(offset, string) {
+  function (offset, string) {
     let i;
     //Declarando variable para concatenar caracteres
     let encodedString = "";
@@ -18,3 +18,4 @@ window.cipher = {
   }
 
 };
+

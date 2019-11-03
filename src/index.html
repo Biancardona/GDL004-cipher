@@ -9,54 +9,69 @@
 </head>
 
 <body class="body">
-  <div id="root">
-    <header>
-  </div>
-  <div class="a">
+  <header class="a">
     <h1>ARCANE DIARY</h1>
+  </header>
+  <div id="screen1" class="a">
+    <figure>
+      <img src="Unicornio1.png">
+    </figure>
+    <main>
+      <div class="b">
+        <p>Where your secrets remain safe</p>
+        <section>
+          <table id="table">
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+            </tr>
+            <tr>
+              <td>""</td>
+              <td></td>
+              <td>
+                </th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
+        <p>Write a number to encrypt your thoughts</p>
+      </div>
+      <br>
+      <div>
+        <input id="offset" class="input" type="text" name="offset"> <br>
+        <br>
+      </div>
+      <div>
+        <button id="start" class="button" name="start">Dear Diary <br> START</button>
+      </div>
   </div>
-  <figure> 
-  <img src="Unicornio1.png">
-  </figure>
-  <main> 
-  <div class="b">
-    <p>Where your secrets remain safe</p>
-    </header>
-    <section> </section>
-    <table id="table">
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
-      <th>D</th>
-      <th>E</th>
-      <th>F</th>
-      <th>G</th>
-      </tr>
-      <tr>
-        <td>""</td>
-        <td></td>
-        <td>
-          </th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    </section>
-    <p>Write a number to encrypt your thoughts</p>
-  </div>
-  <br>
-  <div>
-    <input class="input" type="text" name="offset" <br>
+  <div id="screen2">
+    <textarea id=encode class=form-control1 name="textarea" rows="10" cols="50"
+      placeholder="Write here your personal diary" required></textarea>
     <br>
-
-    <button class="button" type="submit" value="submit">Dear Diary <br> START</button>
+    <br>
+    <br>
+    <textarea id=decode class=form-control2 name="textarea" rows="10" cols="50" placeholder="Encode"></textarea>
+    <br>
+    <br>
+    <button id="encode" class="button2" name="encode">Encode</button>
+    <br>
+    <br>
+    <button id="decode" class="button3" name="decode">Decode</button>
   </div>
-
+  </div>
   <script src="cipher.js"></script>
+
   <script src="index.js"></script>
 
-</main>
+  </main>
 </body>
+
 </html>
