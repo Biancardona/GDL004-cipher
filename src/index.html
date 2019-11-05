@@ -53,18 +53,20 @@
       </div>
   </div>
   <div id="screen2">
-    <textarea id=encode class=form-control1 name="textarea" rows="10" cols="50"
+    <textarea id=encodetextarea class="form-control1" name="textarea" rows="10" cols="50"
       placeholder="Write here your personal diary" required></textarea>
     <br>
     <br>
     <br>
-    <textarea id=decode class=form-control2 name="textarea" rows="10" cols="50" placeholder="Encode"></textarea>
+    <textarea id=decodetextarea class="form-control2" name="textarea1" rows="10" cols="50" placeholder="Encode"></textarea>
     <br>
     <br>
-    <button id="encode" class="button2" name="encode">Encode</button>
+    <input id="offset2" class="input2" type="text" name="offset2" required>  </input> 
+
+    <button id="encodebutton" class="button2" name="encode2">Encode</button>
     <br>
     <br>
-    <button id="decode" class="button3" name="decode">Decode</button>
+    <button id="decodebutton" class="button3" name="decode">Decode</button>
   </div>
   </div>
   <script src="cipher.js"></script>
