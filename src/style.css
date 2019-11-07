@@ -2,7 +2,7 @@ html {
   background-color: rgb(132, 185, 202);
 }
 .a {
-  font-family: 'Annie Use Your Telescope';
+  font-family: "Annie Use Your Telescope";
   font-size: 64px;
   text-align: center;
   letter-spacing: 8px;
@@ -21,7 +21,7 @@ figure {
 }
 div.b {
   text-align: left;
-  font-family: 'Annie Use Your Telescope';
+  font-family: "Annie Use Your Telescope";
   font-size: 32px;
   color: whitesmoke;
   word-spacing: 5px;
@@ -34,7 +34,7 @@ div.b {
 .input, .button {
   border: none;
   text-decoration: none;display: inline-block;
-  font-family: 'Annie Use Your Telescope';
+  font-family: "Annie Use Your Telescope";
   cursor: pointer;
   position: absolute;
   margin: 4px 2px;
@@ -89,7 +89,7 @@ letter-spacing: 3px;
 border-radius: 20px;
 text-decoration: none;
 display: inline-block;
-font-family: 'Annie Use Your Telescope';
+font-family: "Annie Use Your Telescope";
 font-size: 20px;
 font-weight: thicker;
 cursor: pointer;
@@ -106,7 +106,7 @@ position: absolute;
 .input2 {
   border: none;
   text-decoration: none;display: inline-block;
-  font-family: 'Annie Use Your Telescope';
+  font-family: "Annie Use Your Telescope";
   cursor: pointer;
   position: absolute;
   margin: 4px 2px;
@@ -132,7 +132,7 @@ position: absolute;
   border-radius: 20px;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Annie Use Your Telescope';
+  font-family: "Annie Use Your Telescope";
   font-size: 50px;
   font-weight: thicker;
   margin: 4px 2px;

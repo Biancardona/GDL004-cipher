@@ -41,9 +41,9 @@ let textAreaValue1 =function () {
   let textArea1 = document.getElementById("decodetextarea").value;
   textArea1= textArea1.toUpperCase();
   let offsetNumber = document.getElementById("offset2").value;
-  let result = window.cipher.decode1 (offsetNumber,textArea1);
+  let result = window.cipher.decode (offsetNumber,textArea1);
   document.getElementById("encodetextarea").value = result;
 };
-//Funcion para copiar el texto Decode1 a Encode
+//Funcion para copiar el texto Decode a Encode
 document.getElementById("decodebutton").addEventListener("click", textAreaValue1);
 
