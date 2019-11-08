@@ -4,5 +4,5 @@ Arcane Diary se trata de un cifrado (y descifrado Cesar) de pensamientos, donde 
 
  Dirijido principalmente a personas jovenes (adolescentes y pre-adolescentes) con la idea de comenzar un diario, o comenzar a escribir sus pensamientos o memorias con la necesidad de privacidad y espacio personal de la que a esa edad muchas veces se carece.
 
-![alt text]() ""
-  
+![alt text](https://github.com/Biancardona/GDL004-cipher/blob/master/src/Images/%20Prototipo.jpeg) "Imagen de inicio"
+![alt text]
