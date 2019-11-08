@@ -9,6 +9,7 @@ window.cipher = {
       let asciiCode = string.charCodeAt(i);
       //Separando caracteres
       if ((asciiCode >=65)&&(asciiCode<=90)){
+      //Formula para obtener el residuo del codigo ascci
       let encoded = ((asciiCode - 65 + parseInt(offset)) % 26) + 65;
       //Convirtiendo codigo ascii a string
       let character = String.fromCharCode(encoded);
