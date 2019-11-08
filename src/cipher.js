@@ -37,6 +37,10 @@ window.cipher = {
       let character = String.fromCharCode(decoded);
       //Concatenando caracter
       decodedString = decodedString.concat(character);
+    } else if ((asciiCode >= 97) && (asciiCode <= 122)) {
+      let decoded = ((asciiCode + parseInt(offset + 97)) % 26) + 97;
+      let character= String.fromCharCode(decoded);
+      decodedString = decodedString.concat(character);
       }else{
         decodedString=decodedString.concat(string[i]);
 }

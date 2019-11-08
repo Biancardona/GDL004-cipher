@@ -32,7 +32,6 @@ el.addEventListener("click"), (){
 //Funcion para obtener elemento de textarea encode
 let textAreaValue =function () {
   let textArea = document.getElementById("encodetextarea").value;
-  textArea= textArea.toUpperCase();
   let offsetNumber = document.getElementById("offset2").value;
   let result = window.cipher.encode (offsetNumber,textArea);
   document.getElementById("decodetextarea").value = result;
@@ -43,7 +42,6 @@ document.getElementById("encodebutton").addEventListener("click", textAreaValue)
 //Funcion para obtener elemento de textarea decode
 let textAreaValue1 =function () {
   let textArea1 = document.getElementById("decodetextarea").value;
-  textArea1= textArea1.toUpperCase();
   let offsetNumber = document.getElementById("offset2").value;
   let result = window.cipher.decode (offsetNumber,textArea1);
   document.getElementById("encodetextarea").value = result;
