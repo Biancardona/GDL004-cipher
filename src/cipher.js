@@ -14,6 +14,12 @@ window.cipher = {
       let character = String.fromCharCode(encoded);
       //Concatenando caracter
       encodedString = encodedString.concat(character);
+    } else if ((asciiCode >= 97) && (asciiCode <= 122)) {
+      let encoded = ((asciiCode - 97 + parseInt(offset)) % 26) + 97;
+      //Convirtiendo codigo ascii a string
+      let character = String.fromCharCode(encoded);
+      //Concatenando caracter
+      encodedString = encodedString.concat(character);
       }else{
         encodedString=encodedString.concat(string[i]);
     }

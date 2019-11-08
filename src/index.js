@@ -25,6 +25,10 @@ el.addEventListener("click", function () {
 el.addEventListener("click", function () {
   display("screen2");
 });
+/*let valueOffset = document.getElementById("offset");
+el.addEventListener("click"), (){
+  document.getElementById ("offset2").value = result;
+};*/
 //Funcion para obtener elemento de textarea encode
 let textAreaValue =function () {
   let textArea = document.getElementById("encodetextarea").value;
@@ -46,4 +50,3 @@ let textAreaValue1 =function () {
 };
 //Funcion para copiar el texto Decode a Encode
 document.getElementById("decodebutton").addEventListener("click", textAreaValue1);
-

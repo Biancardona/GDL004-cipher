@@ -3,14 +3,14 @@ html {
 }
 .a {
   font-family: "Annie Use Your Telescope";
-  font-size: 64px;
+  font-size: 70px;
   text-align: center;
-  letter-spacing: 8px;
+  letter-spacing: 9px;
   color: whitesmoke;
-  word-spacing: 5px;
+  word-spacing:12px;
   margin: 10px 0;
 }
-figure {
+.imagen {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center; 
@@ -22,14 +22,13 @@ figure {
 div.b {
   text-align: left;
   font-family: "Annie Use Your Telescope";
-  font-size: 32px;
+  font-size: 38px;
   color: whitesmoke;
   word-spacing: 5px;
-  word-spacing: 3px;
-  margin: 40px 0; 
+  margin: 30px 0; 
   position: absolute;
-  left:195px;
-  top:750px;
+  left:740px;
+  top:900px;
 }
 .input, .button {
   border: none;
@@ -38,19 +37,6 @@ div.b {
   cursor: pointer;
   position: absolute;
   margin: 4px 2px;
-}
-.input{
-  background-color: whitesmoke;
-  color: DarkSlateBlue;
-  padding: 10px;
-  height: 25px;
-  width: 80px;
-  text-align: justify;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  left:440px;
-  top:1140px;
 }
 .button {
   background-color: rgb(233, 221, 229);
@@ -61,21 +47,8 @@ div.b {
   border-radius: 20px;
   font-size: 35px;
   font-weight: thicker;
-  left:340px;
-  top:1250px
-}
-#table td, #table th {
-  border-collapse: collapse;
-  color: darkslateblue;
-  height: 20%;
-  border: 3px;
-  padding: 14px;
-  border-style: solid;
-  border-color: whitesmoke;
-  font-size: 23px;
-  text-align: center;
-  position: relative;
-  left:75px;
+  left:240px;
+  top:1080px
 }
 .form-control1, .form-control2{
 background-color: whitesmoke;
@@ -84,13 +57,14 @@ color: rgb(60, 50, 119);
 padding:25px;
 width: 300px;
 height: 300px;
+margin: 0;
 text-align: left;
-letter-spacing: 3px;
+letter-spacing: 10px;
 border-radius: 20px;
 text-decoration: none;
 display: inline-block;
 font-family: "Annie Use Your Telescope";
-font-size: 20px;
+font-size: 30px;
 font-weight: thicker;
 cursor: pointer;
 position: absolute;
@@ -117,17 +91,17 @@ position: absolute;
   width: 80px;
   text-align: justify;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   left:440px;
-  top:800px;
+  top:900px;
 }
 .button2, .button3 {
   background-color: rgb(233, 221, 229);
   border: none;
   color: rgb(60, 50, 119);
-  padding: 8px;
-  width: 30%;
+  padding: 5px;
+  width: 25%;
   text-align: center;
   border-radius: 20px;
   text-decoration: none;
@@ -141,11 +115,11 @@ position: absolute;
 }
 .button2{
   left:180px;
-  top:900px
+  top:1050px
 }
 .button3{
   left:500px;
-  top:900px
+  top:1050px
 }
 #screen1 {
   display:block
@@ -155,4 +129,46 @@ position: absolute;
 }
 #encode {
 text-transform: uppercase
+}
+@media screen and (min-width: 1000px){
+  .button {
+padding:30px;
+left:800px;
+  }
+}
+@media screen and (min-width: 1000px){
+ .form-control1 {
+position: center;
+padding:70px;
+width: 500px;
+height: 450px;
+left:120px;
+  } 
+}
+@media screen and (min-width: 1000px){
+  .form-control2 {
+ position: center;
+ padding:70px;
+ width: 500px;
+ height: 450px;
+ left: 1200px;
+   } 
+ }
+@media screen and (min-width: 1000px){
+  .button2 {
+padding:6px;
+left:180px;
+  }
+}
+@media screen and (min-width: 1000px){
+  .button3 {
+padding:6px;
+left:1190px;
+  }
+}
+@media screen and (min-width: 1000px){
+  .input2 {
+padding:20px;
+left:900px;
+  }
 }
